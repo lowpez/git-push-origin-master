@@ -1,0 +1,31 @@
+ // Defining a variable
+ $gray: #F4F4F4;
+
+ body {
+   background: $gray; // Using this variable
+ }
+
+ .banner {
+  background: red;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+.container{
+  width: 60%;
+  h1 {
+    font-size: 50px;
+  }
+  p{
+    border-left:2px solid #dddddd;
+    padding: 1em;
+  }
+}
+
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
